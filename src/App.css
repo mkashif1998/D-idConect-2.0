@@ -1,0 +1,400 @@
+/* __________Body__________________________  */
+.BODY_COLOR {
+  background-color: #050206;
+  height: 1000px;
+}
+/* __________Navbar__________________________  */
+.main_back_image {
+  background-image: url(./assets/images/HeroSection.png);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  background-color: #171230 !important;
+}
+.navbar_box {
+  padding-top: 10px;
+}
+.navbar_banner {
+  background-color: rgba(
+    165,
+    165,
+    165,
+    0.2
+  ); /* Set the background color with opacity */
+  margin-left: 160px !important;
+  margin-right: 160px !important;
+  border: 1.5px solid #171230;
+  /* border-image-source: linear-gradient(90deg, #000000 0%, #7663ea 100%); */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.nav-link {
+  color: rgba(165, 165, 165, 1);
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgba(118, 99, 234, 1);
+}
+
+.nav-link.active {
+  color: rgba(118, 99, 234, 1) !important;
+}
+
+.login_btn {
+  color: white;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+.login_btn:hover {
+  color: rgba(118, 99, 234, 1);
+}
+.signup_btn {
+  color: white;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  background: rgba(118, 99, 234, 1);
+  border: 2px solid rgba(118, 99, 234, 1);
+}
+.signup_btn:hover {
+  color: rgba(118, 99, 234, 1);
+  background: transparent;
+  border: 2px solid rgba(118, 99, 234, 1);
+}
+.toggle_btn {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+/* __________Hero Section__________________________  */
+.hero_section_h1 {
+  color: transparent;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  width: 100%;
+  font-size: 35px;
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero_section_btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgba(110, 90, 216, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
+  border: 1.07px solid rgba(71, 71, 71, 1);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.hero_section_btn_margin {
+  padding-top: 395px;
+}
+/* __________BlockChain Section__________________________  */
+.blockchain_section_h1 {
+  color: transparent;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  width: 100%;
+  font-size: 35px;
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blockchain_p {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* __________Ecosystem Section__________________________  */
+.ecosystem_box {
+  border: 1.48px solid rgba(71, 71, 71, 1);
+  background: rgba(191, 191, 191, 0.2);
+}
+.ecoSystemVideo {
+  box-shadow: 0px -5px 15px #13084B, -5px -15px 15px #13084B, 5px 0px 15px #13084B;
+}
+.ecosystem_h5 {
+  color: transparent;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  width: 100%;
+  /* font-size: 35px; */
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ecosystem_p {
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 9.5px;
+  color: rgba(255, 255, 255, 1);
+}
+/* __________Redefining Section__________________________  */
+.redefining_main_box {
+  border-bottom: 1px solid white;
+}
+.redefining_box {
+  border-right: 1px solid white;
+}
+.redefining_section_h1 {
+  color: transparent;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  width: 100%;
+  font-size: 35px;
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.redefining_p {
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+.redefining_h5 {
+  color: transparent;
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.redefining_p1 {
+  font-family: MetropolisLight;
+  font-weight: 500;
+  font-size: 9.5px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+/* __________FAQ's Section__________________________  */
+.faq_h6 {
+  font-family: MetropolisLight;
+  font-weight: 500;
+}
+.accordion-content {
+  display: none;
+  padding-top: 15px;
+}
+.accordion-heading {
+  font-family: MetropolisSemiBold;
+  font-weight: 500;
+  font-size: 22px;
+  color: white;
+}
+.accordion-title {
+  font-family: MetropolisLight;
+  font-weight: 400;
+  font-size: 10.5px;
+  width: 90%;
+  color: rgba(255, 255, 255, 1);
+  word-spacing: 3px;
+}
+.accordion-content.active {
+  display: block;
+  padding-left: 1rem;
+  color: white;
+  font-family: ManropeRegular;
+  font-weight: 500;
+  font-size: 10.5px;
+  background-color: transparent;
+}
+.accordion-item {
+  border-bottom: 1.33px solid white !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding-top: 15px !important;
+  padding-bottom: 19px !important;
+  width: 100%;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 1px !important;
+  border: none;
+  background: linear-gradient(
+    0deg,
+    rgba(110, 90, 216, 0.2) 0%,
+    rgba(5, 2, 6, 0.1) 100%
+  );
+}
+.accordion-itemactive {
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  width: 100%;
+  padding-left: 2px;
+  border-radius: 1px !important;
+  border: none;
+  background-color: transparent !important;
+}
+.accordion {
+  width: 100%;
+}
+/* __________Experience Section__________________________  */
+.experience_main_box {
+  background-image: url(./assets/images/Experience4.png);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: auto; */
+  background-color: #171230 !important;
+}
+.experience_p {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 12.5px;
+  line-height: 32px;
+}
+/* __________Footer Section__________________________  */
+.footer_main_box {
+  background-color: rgba(1, 3, 20, 1);
+}
+.footer_p {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisMedium;
+  font-weight: 500;
+  font-size: 11.5px;
+}
+.footer_h6 {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisSemiBold;
+  font-weight: 600;
+}
+.footer_p1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisMedium;
+  font-weight: 500;
+}
+.footer_main_box1 {
+  border-bottom: 1px solid white;
+  /* border: 1px solid; */
+  /* border-image: linear-gradient(90deg, #9a949b 0%, #ffffff 50%, #140818 100%); */
+  /* stroke-width: 1px; */
+  /* stroke: #9a949b; */
+  /* width: 100%;
+  height: 0px;
+  transform: rotate(-90deg);
+  flex-shrink: 0; */
+}
+.footer_p2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: MetropolisLight;
+  font-weight: 400;
+  font-size: 11px;
+}
+/* __________Media Query__________________________  */
+@media (max-width: 1200px) {
+  .navbar_banner {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .hero_section_h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar_banner {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .mobile_form_responsive {
+    width: 100% !important;
+  }
+  .mobile_form_responsive1 {
+    width: 60% !important;
+  }
+  .main_back_image {
+    background-position: center;
+  }
+  .blockchain_section_h1 {
+    font-size: 23px;
+  }
+  .blockchain_p {
+    font-size: 11.5px;
+  }
+  .redefining_main_box {
+    border-bottom: 1px solid transparent;
+  }
+  .redefining_box {
+    border-right: 1px solid transparent;
+  }
+  .redefining_section_h1 {
+    font-size: 26px;
+  }
+  .redefining_p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .experience_p {
+    line-height: 22px;
+  }
+  .accordion-heading {
+    font-size: 16px;
+  }
+}
+
+
+

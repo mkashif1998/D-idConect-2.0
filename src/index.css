@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "MetropolisLight";
+  src: url("./assets/fonts/Metropolis-Light.otf");
+}
+@font-face {
+  font-family: "MetropolisMedium";
+  src: url("./assets/fonts/Metropolis-Medium.otf");
+}
+@font-face {
+  font-family: "MetropolisSemiBold";
+  src: url("./assets/fonts/Metropolis-SemiBold.otf");
+}
+:root {
+  --navbar-link-color: white;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "UrbanistReg";
+}
+p {
+  font-family: "MetropolisLight";
+}
