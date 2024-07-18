@@ -12,7 +12,7 @@ const HeroSection = () => {
             <br className="d-none d-md-block" /> and Blockchain
           </h2>
           <div className="d-flex justify-content-center hero_section_btn_margin">
-           <Link target="" className="text-decoration-none" to="/https://play.google.com/store/apps/details?id=corop.di.connect&hl=en">
+           <Link target="" className="text-decoration-none" to="https://play.google.com/store/apps/details?id=corop.di.connect&hl=en">
             <button className="hero_section_btn d-flex align-items-center gap-5">
               Download Now
               <div>
