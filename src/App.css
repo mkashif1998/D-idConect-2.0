@@ -248,7 +248,7 @@
   font-weight: 400;
   font-size: 10.5px;
   width: 90%;
-  color: rgba(255, 255, 255, 1);
+  color: #FFFFFF;
   word-spacing: 3px;
 }
 .accordion-content.active {
@@ -291,6 +291,7 @@
 }
 .accordion {
   width: 100%;
+  cursor: pointer;
 }
 .AcoodianLine{
   margin-top: -5%;

@@ -2,7 +2,6 @@ import React from "react";
 import * as images from "../constant/images";
 import {
   verticleLine,
-  horizontalLine,
   reverseVerticleLine,
 } from "../constant/svgs";
 
