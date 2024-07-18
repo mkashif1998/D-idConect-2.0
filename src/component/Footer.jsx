@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div style={{ backgroundColor: "#050206" }}>
         <div className="container footer_main_box pt-3 pb-4">
-          <div className="row pt-5 pb-5 footer_main_box1">
+          <div className="row pt-5 pb-5">
             <div className="col-md-5 col-12">
               <div className="ps-0 ps-lg-5 pb-5">
                 <img src={images.Logo} alt="logo" width={130} />
@@ -108,6 +108,9 @@ const Footer = () => {
                 </Link>
               </div>
             </div>
+          </div>
+          <div>
+          <img src={images.horizontalLine} alt="logo" width="100%" />
           </div>
           <div className="row">
             <div className="col-12">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { ChevronDown, ChevronUp, MoveRight } from "lucide-react";
+import { MoveRight } from "lucide-react";
+import * as images from "../constant/images";
 
 const FaqAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -40,38 +41,57 @@ const FaqAccordion = () => {
   ];
 
   return (
-    <div className="accordion">
-      {items.map((item, index) => (
-        <div
-          key={index}
-          className={`${
-            index === activeIndex ? "accordion-itemactive" : "accordion-item"
-          } py-1`}
-          onClick={() => handleClick(index)}
-        >
-          <div className="d-flex justify-content-between">
-            <div className="accordion-heading">{item.heading}</div>
-            <div>
-              <MoveRight color="white" />
+    <>
+      <img
+        src={images.AcoodianLine}
+        alt="logo"
+        width="100%"
+        className="AcoodianLine"
+      />
+      <div className="accordion">
+        {items.map((item, index) => (
+          <>
+            <div
+              key={index}
+              style={{ marginTop: "-3%" }}
+              className={`${
+                index === activeIndex
+                  ? "accordion-itemactive"
+                  : "accordion-item"
+              } py-1`}
+              onClick={() => handleClick(index)}
+            >
+              <div className="d-flex justify-content-between">
+                <div className="accordion-heading">{item.heading}</div>
+                <div>
+                  <MoveRight color="white" />
+                </div>
+              </div>
+              <div
+                className={`accordion-title ${
+                  index === activeIndex ? "active" : ""
+                }`}
+              >
+                {item.title}
+              </div>
+              <div
+                className={`accordion-content ${
+                  index === activeIndex ? "active" : ""
+                }`}
+              >
+                {item.content}
+              </div>
             </div>
-          </div>
-          <div
-            className={`accordion-title ${
-              index === activeIndex ? "active" : ""
-            }`}
-          >
-            {item.title}
-          </div>
-          <div
-            className={`accordion-content ${
-              index === activeIndex ? "active" : ""
-            }`}
-          >
-            {item.content}
-          </div>
-        </div>
-      ))}
-    </div>
+            <img
+              src={images.AcoodianLine}
+              alt="logo"
+              width="100%"
+              className="AcoodianLine"
+            />
+          </>
+        ))}
+      </div>
+    </>
   );
 };
 

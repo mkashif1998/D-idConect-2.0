@@ -28,3 +28,160 @@ export const heroApple = (
     />
   </svg>
 );
+export const verticleLine = (
+  <svg
+    width="10"
+    height="222"
+    viewBox="0 0 10 222"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_2_121)">
+      <path
+        d="M5 213L4.99999 1"
+        stroke="url(#paint0_linear_2_121)"
+        stroke-linecap="round"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_2_121"
+        x="0.5"
+        y="0.5"
+        width="9"
+        height="221"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_2_121"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_2_121"
+          result="shape"
+        />
+      </filter>
+      <linearGradient
+        id="paint0_linear_2_121"
+        x1="6"
+        y1="213"
+        x2="5.99999"
+        y2="1"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#9A949B" />
+        <stop offset="0.5" stop-color="white" />
+        <stop offset="1" stop-color="#140818" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+export const horizontalLine = (
+  <svg
+    width="1110"
+    height="10"
+    viewBox="0 0 1310 10"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d_2_120)">
+      <path d="M4 1H1306" stroke="url(#paint0_linear_2_120)" />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d_2_120"
+        x="0"
+        y="0.5"
+        width="1310"
+        height="9"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+          result="hardAlpha"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feComposite in2="hardAlpha" operator="out" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow_2_120"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow_2_120"
+          result="shape"
+        />
+      </filter>
+      <linearGradient
+        id="paint0_linear_2_120"
+        x1="4"
+        y1="1.5"
+        x2="1306"
+        y2="1.5"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#140818" />
+        <stop offset="0.5" stop-color="white" />
+        <stop offset="1" stop-color="#140818" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+export const reverseVerticleLine = (
+  <svg
+    width="2"
+    height="214"
+    viewBox="0 0 2 214"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1 1L0.999991 213"
+      stroke="url(#paint0_linear_2_122)"
+      stroke-linecap="round"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_2_122"
+        x1="0"
+        y1="1"
+        x2="-9.26681e-06"
+        y2="213"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="white" />
+        <stop offset="0.5" stop-color="white" />
+        <stop offset="1" stop-color="#140818" />
+      </linearGradient>
+    </defs>
+  </svg>
+);

@@ -47,7 +47,7 @@ const Ecosystem = () => {
                 muted
                 playsInline
               />
-              <div className="ecosystem_box rounded-bottom-4 m-0 p-0">
+              <div className="ecosystem_box rounded-bottom-4">
                 <h5 className="ecosystem_h5 text-center pt-3">
                   Blockchain Integration
                 </h5>

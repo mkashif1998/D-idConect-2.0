@@ -8,6 +8,8 @@ import Redefining2 from "../assets/images/Redefining2.png";
 import Redefining3 from "../assets/images/Redefining3.png";
 import Redefining4 from "../assets/images/Redefining4.png";
 import Redefining5 from "../assets/images/Redefining5.png";
+import horizontalLine from "../assets/images/horizontalLine.png";
+import AcoodianLine from "../assets/images/AcoodianLine.png";
 import Experience1 from "../assets/images/Experience1.png";
 import Experience2 from "../assets/images/Experience2.png";
 import Experience3 from "../assets/images/Experience3.png";
@@ -30,6 +32,8 @@ export {
   Redefining3,
   Redefining4,
   Redefining5,
+  horizontalLine,
+  AcoodianLine,
   Experience1,
   Experience2,
   Experience3,

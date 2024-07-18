@@ -1,5 +1,10 @@
 import React from "react";
 import * as images from "../constant/images";
+import {
+  verticleLine,
+  horizontalLine,
+  reverseVerticleLine,
+} from "../constant/svgs";
 
 const Redefining = () => {
   return (
@@ -18,8 +23,8 @@ const Redefining = () => {
           individuals.
         </p>
         <div className="container mt-5 pt-4 pb-5">
-          <div className="row redefining_main_box">
-            <div className="col-md-4 col-12 redefining_box">
+          <div className="row">
+            <div className="col-md-4 col-12 d-flex justify-content-between">
               <div>
                 <div className="text-center">
                   <img
@@ -41,8 +46,9 @@ const Redefining = () => {
                   techniques to mitigate risks and protect user information.
                 </p>
               </div>
+              <div className="d_mobile_lines">{verticleLine}</div>
             </div>
-            <div className="col-md-4 col-12 redefining_box">
+            <div className="col-md-4 col-12">
               <div>
                 <div className="text-center">
                   <img
@@ -64,7 +70,8 @@ const Redefining = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-4 col-12 d-flex justify-content-between">
+              <div className="d_mobile_lines">{verticleLine}</div>
               <div>
                 <div className="text-center">
                   <img
@@ -87,31 +94,40 @@ const Redefining = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6 col-12 d-flex justify-content-end redefining_box pt-3">
-              <div>
-                <div className="text-center">
-                  <img
-                    className="ecoSystemImage rounded-top-4"
-                    src={images.Redefining4}
-                    alt="logo"
-                    width={60}
-                  />
+          <div className="p-0 d_mobile_lines" style={{ marginTop: "-1.7%" }}>
+            <img src={images.horizontalLine} alt="logo" width="100%" />
+          </div>
+          <div
+            className="row d-flex justify-content-center"
+            style={{ marginTop: "-1%" }}
+          >
+            <div className="col-md-4 col-12">
+              <div className="d-flex justify-content-between">
+                <div className="pt-4">
+                  <div className="text-center">
+                    <img
+                      className="ecoSystemImage rounded-top-4"
+                      src={images.Redefining4}
+                      alt="logo"
+                      width={60}
+                    />
+                  </div>
+                  <h5 className="redefining_h5 text-center pt-3">
+                    Identity Verification
+                  </h5>
+                  <p className="redefining_p1 text-center pt-2">
+                    Simplify your online presence with our unified digital
+                    identity <br className="d-none d-md-block" />
+                    framework. Say goodbye to the complexities of managing
+                    multiple <br className="d-none d-md-block" />
+                    identities across various platforms.
+                  </p>
                 </div>
-                <h5 className="redefining_h5 text-center pt-3">
-                  Identity Verification
-                </h5>
-                <p className="redefining_p1 text-center pt-2">
-                  Simplify your online presence with our unified digital
-                  identity <br className="d-none d-md-block" />
-                  framework. Say goodbye to the complexities of managing
-                  multiple <br className="d-none d-md-block" />
-                  identities across various platforms.
-                </p>
+                <div className="d_mobile_lines">{reverseVerticleLine}</div>
               </div>
             </div>
-            <div className="col-md-4 col-12 d-flex justify-content-start pt-3">
-              <div>
+            <div className="col-md-4 col-12 d-flex justify-content-start">
+              <div className="pt-4">
                 <div className="text-center">
                   <img
                     className="ecoSystemImage rounded-top-4"
