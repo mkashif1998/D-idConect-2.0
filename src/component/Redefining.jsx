@@ -1,9 +1,6 @@
 import React from "react";
 import * as images from "../constant/images";
-import {
-  verticleLine,
-  reverseVerticleLine,
-} from "../constant/svgs";
+import { verticleLine, reverseVerticleLine } from "../constant/svgs";
 
 const Redefining = () => {
   return (

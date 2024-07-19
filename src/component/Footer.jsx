@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src={images.Logo} alt="logo" width={130} />
 
                 <p className="footer_p pt-4">
-                  identity management with blockchain and AI, providing{" "}
+                  identity management with blockchain and AI, providing
                   <br className="d-none d-md-block" /> a decentralised platform
                   for secure identity
                 </p>
@@ -57,60 +57,70 @@ const Footer = () => {
                 src={images.Experience3}
                 alt="logo"
                 width={140}
-                className="mt-2"
+                className="mt-4 mt-lg-2"
               />
             </div>
-            <div className="col-md-2 col-12">
-              <div>
-                <Link
-                  to="/https://www.linkedin.com/company/d-idconnect/"
-                  className="text-decoration-none"
-                >
-                  <img
-                    src={images.FooterLInkedin}
-                    alt="logo"
-                    width={100}
-                    className="mt-2"
-                  />
-                </Link>
-                <Link
-                  to="/https://www.facebook.com/profile.php?id=61562360073587&mibextid=LQQJ4d"
-                  className="text-decoration-none"
-                >
-                  <img
-                    src={images.FooterFacebook}
-                    alt="logo"
-                    width={100}
-                    className="mt-2"
-                  />
-                </Link>
-                <Link
-                  to="/https://www.instagram.com/d.idconnect?igsh=enhkN2hmYjQzZDcw"
-                  className="text-decoration-none"
-                >
-                  <img
-                    src={images.FooterInstagram}
-                    alt="logo"
-                    width={100}
-                    className="mt-2"
-                  />
-                </Link>
-                <Link
-                  to="/https://www.youtube.com/@D-iDconnect"
-                  className="text-decoration-none"
-                >
-                  <img
-                    src={images.FooterYoutube}
-                    alt="logo"
-                    width={100}
-                    className="mt-2"
-                  />
-                </Link>
+            <div className="col-md-2 col-12 mt-4 mt-lg-0">
+              <div className="d-flex d-md-block gap-3">
+                <div>
+                  <Link
+                    to="/https://www.linkedin.com/company/d-idconnect/"
+                    className="text-decoration-none"
+                  >
+                    <img
+                      src={images.FooterLInkedin}
+                      alt="logo"
+                      width={100}
+                      className="mt-2"
+                    />
+                  </Link>
+                </div>
+                <div className="ps-2 ps-lg-0">
+                  <Link
+                    to="/https://www.facebook.com/profile.php?id=61562360073587&mibextid=LQQJ4d"
+                    className="text-decoration-none"
+                  >
+                    <img
+                      src={images.FooterFacebook}
+                      alt="logo"
+                      width={100}
+                      className="mt-2"
+                    />
+                  </Link>
+                </div>
+              </div>
+              <div className="d-flex d-md-block gap-3">
+                <div>
+                  <Link
+                    to="/https://www.instagram.com/d.idconnect?igsh=enhkN2hmYjQzZDcw"
+                    className="text-decoration-none"
+                  >
+                    <img
+                      src={images.FooterInstagram}
+                      alt="logo"
+                      width={100}
+                      className="mt-2"
+                    />
+                  </Link>
+                </div>
+                <div className="ps-2 ps-lg-0">
+                  <Link
+                    to="/https://www.youtube.com/@D-iDconnect"
+                    className="text-decoration-none"
+                  >
+                    <img
+                      src={images.FooterYoutube}
+                      alt="logo"
+                      width={100}
+                      className="mt-2"
+                    />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
           <div>
-          <img src={images.horizontalLine} alt="logo" width="100%" />
+            <img src={images.horizontalLine} alt="logo" width="100%" />
           </div>
           <div className="row">
             <div className="col-12">

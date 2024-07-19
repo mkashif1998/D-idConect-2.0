@@ -16,17 +16,49 @@
 .navbar_box {
   padding-top: 10px;
 }
-.navbar_banner {
+/* .navbar_banner {
   background-color: rgba(
     165,
     165,
     165,
     0.2
-  ); /* Set the background color with opacity */
+  );
   margin-left: 160px !important;
   margin-right: 160px !important;
-  border: 1.5px solid #171230;
-  /* border-image-source: linear-gradient(90deg, #000000 0%, #7663ea 100%); */
+  border: 1px solid; 
+  border-image-source: linear-gradient(90deg, #000000 0%, #7663EA 100%);
+  border-image-slice: 1;
+} */
+
+.navbar_banner {
+  background-color: rgba(165, 165, 165, 0.2);
+  margin-left: 160px !important;
+  margin-right: 160px !important;
+  border-radius: 11px;
+  position: relative;
+  overflow: hidden; /* To clip the border within the border-radius */
+}
+
+.navbar_banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit; /* Ensures the border has the same radius */
+  padding: 1px; /* Adjust this value for the border thickness */
+  background: linear-gradient(90deg, #000000 0%, #7663ea 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /* For Safari */
+  mask-composite: exclude; /* For other browsers */
+  z-index: 1;
+}
+
+.navbar_banner > .container {
+  position: relative;
+  z-index: 2;
 }
 
 .navbar-nav {
@@ -148,9 +180,8 @@
   margin-top: -2%;
 }
 .ecoSystemVideo {
-  box-shadow: 0px -6px 20px #13084B;
+  box-shadow: 0px -6px 20px #13084b;
 }
-
 
 .ecosystem_h5 {
   color: transparent;
@@ -248,7 +279,7 @@
   font-weight: 400;
   font-size: 10.5px;
   width: 90%;
-  color: #FFFFFF;
+  color: #ffffff;
   word-spacing: 3px;
 }
 .accordion-content.active {
@@ -293,7 +324,7 @@
   width: 100%;
   cursor: pointer;
 }
-.AcoodianLine{
+.AcoodianLine {
   margin-top: -5%;
 }
 /* __________Experience Section__________________________  */
@@ -363,12 +394,16 @@
   }
 }
 @media (max-width: 768px) {
-.d_mobile_lines{
-  display: none;
-    }
-    .AcoodianLine{
-      margin-top: -9%;
-    }
+  .d_mobile_lines {
+    display: none;
+  }
+  .AcoodianLine {
+    margin-top: -9%;
+  }
+  .mobile_form_responsive {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -410,8 +445,4 @@
   .accordion-heading {
     font-size: 16px;
   }
-
 }
-
-
-

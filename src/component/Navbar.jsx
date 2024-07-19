@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar_box">
-        <nav className="navbar navbar-expand-lg mt-4 navbar_banner rounded-3 p-0 m-0">
+        <nav className="navbar navbar-expand-lg mt-4 navbar_banner p-0 m-0">
           <div className="container pt-2 pb-2">
             <div className="d-flex w-25 justify-content-center mobile_form_responsive1">
               <Link className="navbar-brand" to="/">

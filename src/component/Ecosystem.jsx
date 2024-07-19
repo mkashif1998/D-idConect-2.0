@@ -61,7 +61,7 @@ const Ecosystem = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12">
+          <div className="col-md-4 col-12 mt-5 mt-lg-0">
             <div style={{ width: "92%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
@@ -84,7 +84,7 @@ const Ecosystem = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12">
+          <div className="col-md-4 col-12 mt-5 mt-lg-0">
             <div style={{ width: "92%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
@@ -100,8 +100,8 @@ const Ecosystem = () => {
                 </h5>
                 <p className="ecosystem_p text-center">
                   Supports integration with various systems for seamless
-                  identity <br className="d-none d-md-block" /> management
-                  that enables cross-platform identity verification through
+                  identity <br className="d-none d-md-block" /> management that
+                  enables cross-platform identity verification through
                   <br className="d-none d-md-block" />
                   Web3 protocols.
                 </p>

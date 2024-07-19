@@ -97,14 +97,6 @@
 
 // export default FaqAccordion;
 
-
-
-
-
-
-
-
-
 import React, { useState } from "react";
 import { MoveRight } from "lucide-react";
 import * as images from "../constant/images";

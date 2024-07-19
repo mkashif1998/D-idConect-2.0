@@ -1,6 +1,6 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './component/Home'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./component/Home";
 
 const Router = () => {
   return (
@@ -9,7 +9,7 @@ const Router = () => {
         <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default Router
+export default Router;
