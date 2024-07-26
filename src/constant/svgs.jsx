@@ -7,8 +7,8 @@ export const heroandriod = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M2.61831 0.313312C2.87058 0.0436747 3.27483 0.0436747 3.5271 0.313312L5.60432 2.63904C6.83066 1.94933 8.27677 1.62153 9.75876 1.62153C11.2407 1.62153 12.6869 1.94933 13.9132 2.63904L15.9904 0.313312C16.2427 0.0436747 16.6469 0.0436747 16.8992 0.313312C17.1515 0.582949 17.1515 1.06118 16.8992 1.33082L14.9518 3.36583C17.135 5.0837 18.5869 7.80454 18.5869 10.9244C18.5869 11.0014 18.5887 11.1387 18.5869 11.2151H0.930571C0.928858 11.1387 0.930571 11.0014 0.930571 10.9244C0.930571 7.80454 2.38254 5.0837 4.56571 3.36583L2.61831 1.33082C2.36605 1.06118 2.36605 0.582949 2.61831 0.313312ZM6.25345 8.01728C6.72912 8.01728 7.16223 7.65356 7.16223 7.14513C7.16223 6.6367 6.72912 6.12762 6.25345 6.12762C5.77777 6.12762 5.47449 6.6367 5.47449 7.14513C5.47449 7.65356 5.77777 8.01728 6.25345 8.01728ZM14.043 7.14513C14.043 7.65356 13.7397 8.01728 13.2641 8.01728C12.7884 8.01728 12.3553 7.65356 12.3553 7.14513C12.3553 6.6367 12.7884 6.12762 13.2641 6.12762C13.7397 6.12762 14.043 6.6367 14.043 7.14513Z"
       fill="white"
     />
@@ -40,7 +40,7 @@ export const verticleLine = (
       <path
         d="M5 213L4.99999 1"
         stroke="url(#paint0_linear_2_121)"
-        stroke-linecap="round"
+        strokeLinecap="round"
       />
     </g>
     <defs>
@@ -51,9 +51,9 @@ export const verticleLine = (
         width="9"
         height="221"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -87,9 +87,9 @@ export const verticleLine = (
         y2="1"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#9A949B" />
-        <stop offset="0.5" stop-color="white" />
-        <stop offset="1" stop-color="#140818" />
+        <stop clipRule="#9A949B" />
+        <stop offset="0.5" stopColor="white" />
+        <stop offset="1" stopColor="#140818" />
       </linearGradient>
     </defs>
   </svg>
@@ -113,9 +113,9 @@ export const horizontalLine = (
         width="1310"
         height="9"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feColorMatrix
           in="SourceAlpha"
           type="matrix"
@@ -149,9 +149,9 @@ export const horizontalLine = (
         y2="1.5"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#140818" />
-        <stop offset="0.5" stop-color="white" />
-        <stop offset="1" stop-color="#140818" />
+        <stop stopColor="#140818" />
+        <stop offset="0.5" stopColor="white" />
+        <stop offset="1" stopColor="#140818" />
       </linearGradient>
     </defs>
   </svg>
@@ -167,7 +167,7 @@ export const reverseVerticleLine = (
     <path
       d="M1 1L0.999991 213"
       stroke="url(#paint0_linear_2_122)"
-      stroke-linecap="round"
+      strokeLinecap="round"
     />
     <defs>
       <linearGradient
@@ -178,9 +178,9 @@ export const reverseVerticleLine = (
         y2="213"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="white" />
-        <stop offset="0.5" stop-color="white" />
-        <stop offset="1" stop-color="#140818" />
+        <stop stopColor="white" />
+        <stop offset="0.5" stopColor="white" />
+        <stop offset="1" stopColor="#140818" />
       </linearGradient>
     </defs>
   </svg>
