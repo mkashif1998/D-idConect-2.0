@@ -40,7 +40,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-md-3 col-12">
-              <h5 className="footer_h6">Download Now</h5>
+              <h5 className="footer_h6 mt-5 mt-lg-0">Download Now</h5>
               <Link
                 className="text-decoration-none"
                 to="/https://play.google.com/store/apps/details?id=corop.di.connect&hl=en"

@@ -399,7 +399,7 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.privacy_para1{
+.privacy_para1 {
   font-family: MetropolisMedium;
   font-weight: 500;
   font-size: 12px;
@@ -413,13 +413,18 @@
   font-weight: 500;
   width: 100%;
   font-size: 35px;
-  background: linear-gradient(90deg, #6C6C6C 1.11%, #FFFFFF 48.03%, #6C6C6C 100%);
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* __________terms & Condition__________________________  */
-.term_back_image{
+.term_back_image {
   background-image: url(./assets/images/TermsBack.png);
   background-position: center;
   width: 100%;
@@ -433,13 +438,13 @@
   border-image-source: linear-gradient(180deg, #474747 0%, #1C161E 100%);
   border-radius: 20px;
   } */
-  .termFeatureBox {
-    background-color: linear-gradient(180deg, #6E5AD8 -102.81%, #000000 100%);
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden; 
-    box-shadow: 0px 4.81px 28px 0px #6E5AD882; 
-    height: 450px; 
+.termFeatureBox {
+  background-color: linear-gradient(180deg, #6e5ad8 -102.81%, #000000 100%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 4.81px 28px 0px #6e5ad882;
+  height: 450px;
 }
 
 .termFeatureBox::before {
@@ -451,7 +456,7 @@
   bottom: 0;
   border-radius: inherit; /* Ensures the border has the same radius */
   padding: 2px; /* Adjust this value for the border thickness */
-  background: linear-gradient(180deg, #474747 0%, #1C161E 100%);
+  background: linear-gradient(180deg, #474747 0%, #1c161e 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor; /* For Safari */
@@ -464,17 +469,48 @@
   font-weight: 500;
   width: 100%;
   font-size: 17px;
-  background: linear-gradient(90deg, #6C6C6C 1.11%, #FFFFFF 48.03%, #6C6C6C 100%);
+  background: linear-gradient(
+    90deg,
+    #6c6c6c 1.11%,
+    #ffffff 48.03%,
+    #6c6c6c 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.termFeature_para{
+.termFeature_para {
   font-family: MetropolisMedium;
   font-weight: 500;
   font-size: 12px;
   line-height: 23px;
-  color: rgba(255, 255, 255, 1); 
+  color: rgba(255, 255, 255, 1);
+}
+.term_span {
+  color: #7663ea;
+}
+.termBtn {
+  color: white;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.termBtn:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+.padd_botom {
+  padding-bottom: 100px;
+  margin: 0;
+}
+.mainTermBox {
+  background-color: #050206;
+  padding-top: 80px;
 }
 /* __________Media Query__________________________  */
 @media (max-width: 1200px) {
@@ -508,13 +544,17 @@
 }
 
 @media (max-width: 576px) {
+  .mainTermBox {
+    background-color: #050206;
+    padding-top: 0px;
+  }
   .privacy_back_image {
     background-position: center;
     background-size: 100% 405px;
     width: 100%;
     height: 405px;
   }
-  .privacy_head{
+  .privacy_head {
     font-size: 25px;
   }
   .privacy_para {
@@ -565,5 +605,11 @@
   }
   .navbar_banner {
     background-color: #1e1840;
+  }
+  .term_back_image {
+    background-position: center;
+    background-size: 100% 405px;
+    width: 100%;
+    height: 405px;
   }
 }

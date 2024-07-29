@@ -70,7 +70,7 @@ const PrivacyPage = () => {
               </p>
             </div>
           </div>
-          <h1 className="privacy_head text-center mt-5">
+          <h1 className="privacy_head text-start text-lg-center mt-5">
             Sharing and control of Information
           </h1>
           <p className="privacy_para text-center">
@@ -116,7 +116,7 @@ const PrivacyPage = () => {
             </div>
           </div>
 
-          <h1 className="privacy_head text-center mt-5">
+          <h1 className="privacy_head text-start text-lg-center mt-5">
             Protection and privacy rights
           </h1>
           <p className="privacy_para text-center">
@@ -195,7 +195,7 @@ const PrivacyPage = () => {
               platform.
             </li>
           </ul>
-          <h1 className="privacy_head text-center mt-5">
+          <h1 className="privacy_head text-start text-lg-center mt-5">
             Consent and withdrawal
           </h1>
           <ul>
@@ -224,7 +224,7 @@ const PrivacyPage = () => {
             </li>
           </ul>
 
-          <h1 className="privacy_head text-center mt-5">Contact Information</h1>
+          <h1 className="privacy_head text-start text-lg-center mt-5">Contact Information</h1>
           <p className="privacy_para m-0 pb-5">
             Your satisfaction and understanding are a priority. For any
             questions or concerns about our Privacy Policy, please do not
