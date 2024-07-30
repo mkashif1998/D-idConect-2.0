@@ -517,6 +517,7 @@
 }
 .app_store_border{
   border-radius: 8px;
+  cursor: pointer;
   border: 1px solid gray;
 }
 /* __________Media Query__________________________  */
