@@ -37,7 +37,7 @@ const Ecosystem = () => {
       </h2>
       <div className="container mt-5 pt-4 pb-5">
         <div className="row g-0">
-          <div className="col-md-4 col-12">
+          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
             <div style={{ width: "92%" }} className="m-0 p-0">
               <video
                 className="ecoSystemVideo rounded-top-4 p-0 m-0"
@@ -61,7 +61,7 @@ const Ecosystem = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12 mt-5 mt-lg-0">
+          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
             <div style={{ width: "92%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
@@ -84,7 +84,7 @@ const Ecosystem = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-12 mt-5 mt-lg-0">
+          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
             <div style={{ width: "92%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
