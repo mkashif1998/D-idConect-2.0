@@ -49,7 +49,7 @@ const Footer = () => {
                   src={images.Experience2}
                   alt="logo"
                   width={140}
-                  className="mt-3"
+                  className="mt-3 app_store_border"
                 />
               </Link>
               <br />
@@ -57,7 +57,7 @@ const Footer = () => {
                 src={images.Experience3}
                 alt="logo"
                 width={140}
-                className="mt-4 mt-lg-2"
+                className="mt-4 mt-lg-2 app_store_border"
               />
             </div>
             <div className="col-md-2 col-12 mt-4 mt-lg-0">
@@ -83,7 +83,7 @@ const Footer = () => {
                     <img
                       src={images.FooterFacebook}
                       alt="logo"
-                      width={100}
+                      width={115}
                       className="mt-2"
                     />
                   </Link>
@@ -98,7 +98,7 @@ const Footer = () => {
                     <img
                       src={images.FooterInstagram}
                       alt="logo"
-                      width={100}
+                      width={110}
                       className="mt-2"
                     />
                   </Link>

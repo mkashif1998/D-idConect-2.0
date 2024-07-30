@@ -364,6 +364,9 @@
   font-family: MetropolisMedium;
   font-weight: 500;
 }
+.footer_p1:hover {
+  color: #6e5ad8;
+}
 .footer_main_box1 {
   border-bottom: 1px solid white;
   /* border: 1px solid; */
@@ -511,6 +514,10 @@
 .mainTermBox {
   background-color: #050206;
   padding-top: 80px;
+}
+.app_store_border{
+  border-radius: 8px;
+  border: 1px solid gray;
 }
 /* __________Media Query__________________________  */
 @media (max-width: 1200px) {

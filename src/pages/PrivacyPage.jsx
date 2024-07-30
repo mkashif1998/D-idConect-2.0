@@ -38,7 +38,7 @@ const PrivacyPage = () => {
                 account. It ensures a personalized and secure user experience.
               </p>
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 d-flex align-items-center">
               <div>
                 <img src={images.Information} alt="information" width="100%" />
               </div>
@@ -224,7 +224,9 @@ const PrivacyPage = () => {
             </li>
           </ul>
 
-          <h1 className="privacy_head text-start text-lg-center mt-5">Contact Information</h1>
+          <h1 className="privacy_head text-start text-lg-center mt-5">
+            Contact Information
+          </h1>
           <p className="privacy_para m-0 pb-5">
             Your satisfaction and understanding are a priority. For any
             questions or concerns about our Privacy Policy, please do not

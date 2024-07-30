@@ -11,9 +11,7 @@ const TermsFeatures = () => {
               <div className="p-3">
                 <img src={term.image} alt={term.title} width="100%" />
                 <h5 className="termFeature_h5 pt-3">{term.title}</h5>
-                <p className="termFeature_para pt-2">
-                  {term.description}
-                </p>
+                <p className="termFeature_para pt-2">{term.description}</p>
               </div>
             </div>
           </div>
