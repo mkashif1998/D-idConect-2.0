@@ -12,9 +12,9 @@ const Redefining = () => {
         <p className="redefining_p text-center mt-4">
           identity management with blockchain and AI, providing a decentralised
           platform for secure identity establishment and management,
-          <br className="d-none d-md-block" /> free from theft risks. One-time
+          <br className="d-none d-xl-block" /> free from theft risks. One-time
           sign-in and document verification ensure fraud prevention, while
-          enabling global registration, <br className="d-none d-md-block" />
+          enabling global registration, <br className="d-none d-xl-block" />
           community formation, and secure group chats for businesses and
           individuals.
         </p>
@@ -36,9 +36,9 @@ const Redefining = () => {
                 <p className="redefining_p1 text-center pt-2">
                   With a focus on data integrity and confidentiality,
                   D-iDconnect
-                  <br className="d-none d-md-block" /> implements multi-layered
+                  <br className="d-none d-xl-block" /> implements multi-layered
                   security protocols and cryptographic
-                  <br className="d-none d-md-block" />
+                  <br className="d-none d-xl-block" />
                   techniques to mitigate risks and protect user information.
                 </p>
               </div>
@@ -59,10 +59,10 @@ const Redefining = () => {
                 </h5>
                 <p className="redefining_p1 text-center pt-2">
                   D-iDconnect integrates advanced AI algorithms for identity
-                  <br className="d-none d-md-block" />
+                  <br className="d-none d-xl-block" />
                   verification, offering superior accuracy and efficiency
                   compared to
-                  <br className="d-none d-md-block" /> conventional methods.
+                  <br className="d-none d-xl-block" /> conventional methods.
                 </p>
               </div>
             </div>
@@ -82,9 +82,9 @@ const Redefining = () => {
                 </h5>
                 <p className="redefining_p1 text-center pt-2">
                   D-iDconnect's global registration protocol enables seamless
-                  <br className="d-none d-md-block" />
+                  <br className="d-none d-xl-block" />
                   registration worldwide, ensuring inclusivity & accessibility
-                  across <br className="d-none d-md-block" /> geographical
+                  across <br className="d-none d-xl-block" /> geographical
                   boundaries.
                 </p>
               </div>
@@ -113,9 +113,9 @@ const Redefining = () => {
                   </h5>
                   <p className="redefining_p1 text-center pt-2">
                     Simplify your online presence with our unified digital
-                    identity <br className="d-none d-md-block" />
+                    identity <br className="d-none d-xl-block" />
                     framework. Say goodbye to the complexities of managing
-                    multiple <br className="d-none d-md-block" />
+                    multiple <br className="d-none d-xl-block" />
                     identities across various platforms.
                   </p>
                 </div>
@@ -137,9 +137,9 @@ const Redefining = () => {
                 </h5>
                 <p className="redefining_p1 text-center pt-2">
                   D-IDconnect employs a decentralized blockchain architecture,
-                  <br className="d-none d-md-block" />
+                  <br className="d-none d-xl-block" />
                   enhancing security by distributing data across multiple nodes
-                  rather <br className="d-none d-md-block" /> than relying on a
+                  rather <br className="d-none d-xl-block" /> than relying on a
                   single centralized database. across
                 </p>
               </div>

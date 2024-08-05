@@ -3,6 +3,12 @@ import * as images from "../constant/images";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  };
   return (
     <>
       <div style={{ backgroundColor: "#050206" }}>
@@ -43,7 +49,7 @@ const Footer = () => {
               <h5 className="footer_h6 mt-5 mt-lg-0">Download Now</h5>
               <Link
                 className="text-decoration-none"
-                to="/https://play.google.com/store/apps/details?id=corop.di.connect&hl=en"
+                to="https://play.google.com/store/apps/details?id=corop.di.connect&hl=en"
               >
                 <img
                   src={images.Experience2}
@@ -64,7 +70,7 @@ const Footer = () => {
               <div className="d-flex d-md-block gap-3">
                 <div>
                   <Link
-                    to="/https://www.linkedin.com/company/d-idconnect/"
+                    to="https://www.linkedin.com/company/d-idconnect/"
                     className="text-decoration-none"
                   >
                     <img
@@ -77,7 +83,7 @@ const Footer = () => {
                 </div>
                 <div className="ps-2 ps-lg-0">
                   <Link
-                    to="/https://www.facebook.com/profile.php?id=61562360073587&mibextid=LQQJ4d"
+                    to="https://www.facebook.com/profile.php?id=61562360073587&mibextid=LQQJ4d"
                     className="text-decoration-none"
                   >
                     <img
@@ -92,7 +98,7 @@ const Footer = () => {
               <div className="d-flex d-md-block gap-3">
                 <div>
                   <Link
-                    to="/https://www.instagram.com/d.idconnect?igsh=enhkN2hmYjQzZDcw"
+                    to="https://www.instagram.com/d.idconnect?igsh=enhkN2hmYjQzZDcw"
                     className="text-decoration-none"
                   >
                     <img
@@ -105,7 +111,7 @@ const Footer = () => {
                 </div>
                 <div className="ps-2 ps-lg-0">
                   <Link
-                    to="/https://www.youtube.com/@D-iDconnect"
+                    to="https://www.youtube.com/@D-iDconnect"
                     className="text-decoration-none"
                   >
                     <img
@@ -123,10 +129,24 @@ const Footer = () => {
             <img src={images.horizontalLine} alt="logo" width="100%" />
           </div>
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 d-flex justify-content-between">
               <p className="footer_p2 ms-4 ps-3 m-0 pt-3 pb-3">
                 ©2024 D-iD Connect. All rights reserved .
               </p>
+              <div className="d-flex">
+                <Link className="text-decoration-none" to="/privacypolicy" onClick={scrollToTop()}>
+                  {" "}
+                  <p className="footer_p2 ms-4 ps-3 m-0 pt-3 pb-3">
+                    Privacy & Policy
+                  </p>
+                </Link>
+                <Link className="text-decoration-none" to="termscondition" onClick={scrollToTop()}>
+                  {" "}
+                  <p className="footer_p2 ps-3 m-0 pt-3 pb-3">
+                    Terms & Condition
+                  </p>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

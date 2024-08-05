@@ -36,9 +36,9 @@ const Ecosystem = () => {
         Building a secure ecosystem for you
       </h2>
       <div className="container mt-5 pt-4 pb-5">
-        <div className="row g-0">
+        <div className="row">
           <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "92%" }} className="m-0 p-0">
+            <div style={{ width: "100%" }} className="m-0 p-0">
               <video
                 className="ecoSystemVideo rounded-top-4 p-0 m-0"
                 src={Ecosystem1}
@@ -62,7 +62,7 @@ const Ecosystem = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "92%" }}>
+            <div style={{ width: "100%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
                 src={Ecosystem2}
@@ -85,7 +85,7 @@ const Ecosystem = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "92%" }}>
+            <div style={{ width: "100%" }}>
               <video
                 className="ecoSystemVideo rounded-top-4"
                 src={Ecosystem3}
