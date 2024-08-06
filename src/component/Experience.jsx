@@ -28,11 +28,22 @@ const Experience = () => {
                 <div className="d-flex gap-3 mt-4 pt-3">
                   <Link
                     className="text-decoration-none"
+                    target="blank"
                     to="https://play.google.com/store/apps/details?id=corop.di.connect&hl=en"
                   >
-                    <img src={images.Experience2} alt="logo" className="app_store_border" width={140} />
+                    <img
+                      src={images.Experience2}
+                      alt="logo"
+                      className="app_store_border"
+                      width={140}
+                    />
                   </Link>
-                  <img src={images.Experience3} alt="logo" className="app_store_border" width={140} />
+                  <img
+                    src={images.Experience3}
+                    alt="logo"
+                    className="app_store_border"
+                    width={140}
+                  />
                 </div>
                 <div className="mt-4 mt-lg-5">
                   <img src={images.Experience5} alt="logo" width={100} />

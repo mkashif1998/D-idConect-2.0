@@ -34,7 +34,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link ps-3 pe-3 active"
                     aria-current="page"
-                    to="#"
+                    to="/"
                   >
                     Home
                   </Link>
@@ -64,10 +64,10 @@ const Navbar = () => {
                 className="d-flex pb-2 pb-lg-0 align-items-baseline w-50 justify-content-center gap-4 p-0 m-0 mobile_form_responsive"
                 role="search"
               >
-                <Link className="text-decoration-none" to="/login">
+                <Link className="text-decoration-none" to="#">
                   <p className="login_btn p-0 m-0">Login</p>
                 </Link>
-                <Link className="text-decoration-none" to="/signup">
+                <Link className="text-decoration-none" to="#">
                   <button
                     className="signup_btn rounded-3 p-2 ps-4 pe-4"
                     type="submit"

@@ -10,7 +10,7 @@ const PrivacyPage = () => {
         <Navbar />
       </div>
       <div style={{ backgroundColor: "#050206", marginTop: "-5%" }}>
-        <p className="privacy_para text-center">
+        <p className="privacy_para ps-2 pe-2 ps-lg-0 pe-lg-0 text-center">
           Welcome to D-iDconnect, where your digital identity is respected with
           a commitment to transparency and security. Our Privacy Policy outlines
           how we collect, use, <br /> and protect your information, emphasizing

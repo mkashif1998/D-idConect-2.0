@@ -9,7 +9,7 @@ const Redefining = () => {
         <h2 className="redefining_section_h1 text-center pt-2 pt-lg-5">
           Redefining Digital Identity with Advanced Technology
         </h2>
-        <p className="redefining_p text-center mt-4">
+        <p className="redefining_p text-center mt-4 ps-3 ps-lg-0 pe-3 pe-lg-0">
           identity management with blockchain and AI, providing a decentralised
           platform for secure identity establishment and management,
           <br className="d-none d-xl-block" /> free from theft risks. One-time

@@ -182,7 +182,9 @@
 .ecoSystemVideo {
   box-shadow: 0px -6px 20px #13084b;
 }
-
+.box_width {
+  width: 92%;
+}
 .ecosystem_h5 {
   color: transparent;
   font-family: MetropolisMedium;
@@ -435,12 +437,6 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
-/* .termFeatureBox{
-  background: linear-gradient(180deg, #6E5AD8 -102.81%, #000000 100%);
-  border: 1.78px solid;
-  border-image-source: linear-gradient(180deg, #474747 0%, #1C161E 100%);
-  border-radius: 20px;
-  } */
 .termFeatureBox {
   background-color: linear-gradient(180deg, #6e5ad8 -102.81%, #000000 100%);
   border-radius: 20px;
@@ -515,7 +511,7 @@
   background-color: #050206;
   padding-top: 80px;
 }
-.app_store_border{
+.app_store_border {
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid gray;
@@ -526,18 +522,27 @@
     margin-left: 70px !important;
     margin-right: 70px !important;
   }
-}
-@media (max-width: 1200px) {
   .hero_section_h1 {
     font-size: 26px;
+  }
+}
+@media (max-width: 1024px) {
+  .box_width {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
   .d_mobile_lines {
     display: none;
   }
+  .termFeatureBox {
+    height: 485px;
+  }
   .AcoodianLine {
     margin-top: -9%;
+  }
+  .blockchain_section_h1 {
+    font-size: 31px;
   }
   .mobile_form_responsive {
     width: 100% !important;
@@ -548,6 +553,12 @@
     background-size: 100% 580px;
     width: 100%;
     height: 580px;
+  }
+  .blockchain_p {
+    font-size: 10px;
+  }
+  .redefining_h5 {
+    font-size: 17px;
   }
 }
 
@@ -566,7 +577,7 @@
     font-size: 25px;
   }
   .privacy_para {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 23px;
   }
   .privacy_para1 {
@@ -587,7 +598,7 @@
     background-position: center;
   }
   .blockchain_section_h1 {
-    font-size: 23px;
+    font-size: 21px;
   }
   .blockchain_p {
     font-size: 11.5px;

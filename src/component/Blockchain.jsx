@@ -4,7 +4,6 @@ import Ecosystem1 from "../assets/videos/Blockchain.mp4";
 const Blockchain = () => {
   const videoRef1 = useRef(null);
 
-
   useEffect(() => {
     const handleVideoPlay = (videoElement) => {
       if (videoElement) {
@@ -23,7 +22,7 @@ const Blockchain = () => {
       }
     };
 
-    handleVideoPlay(videoRef1.current)
+    handleVideoPlay(videoRef1.current);
   }, []);
   return (
     <>

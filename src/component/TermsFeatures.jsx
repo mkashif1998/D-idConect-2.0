@@ -7,7 +7,7 @@ const TermsFeatures = () => {
       <div className="row g-3">
         {TermFeaturesData.map((term, index) => (
           <div className="col-lg-4 col-md-6 col-12" key={index}>
-            <div className="termFeatureBox">
+            <div className="termFeatureBox mt-3 mt-md-0 mt-lg-0">
               <div className="p-3">
                 <img src={term.image} alt={term.title} width="100%" />
                 <h5 className="termFeature_h5 pt-3">{term.title}</h5>

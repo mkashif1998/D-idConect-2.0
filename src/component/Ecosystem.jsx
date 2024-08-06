@@ -32,13 +32,13 @@ const Ecosystem = () => {
   }, []);
   return (
     <div className="pt-4" style={{ backgroundColor: "#050206" }}>
-      <h2 className="blockchain_section_h1 text-center pt-2 pt-lg-5">
+      <h2 className="blockchain_section_h1 text-center ps-1 pe-1 ps-md-0 pe-md-0 ps-lg-0 pe-lg-0 pt-2 pt-lg-5">
         Building a secure ecosystem for you
       </h2>
       <div className="container mt-5 pt-4 pb-5">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "100%" }} className="m-0 p-0">
+          <div className="col-lg-4 col-md-6 col-12 mt-0 mt-md-3 mt-lg-0">
+            <div className="box_width m-0 p-0">
               <video
                 className="ecoSystemVideo rounded-top-4 p-0 m-0"
                 src={Ecosystem1}
@@ -53,16 +53,14 @@ const Ecosystem = () => {
                 </h5>
                 <p className="ecosystem_p text-center">
                   Ensures data integrity and transparency through blockchain's
-                  <br className="d-none d-md-block" />
                   immutable ledger that facilitates decentralized identity
-                  verification
-                  <br className="d-none d-md-block" /> and management
+                  verification and management
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "100%" }}>
+          <div className="col-lg-4 col-md-6 col-12 mt-5 mt-md-3 mt-lg-0">
+            <div className="box_width">
               <video
                 className="ecoSystemVideo rounded-top-4"
                 src={Ecosystem2}
@@ -77,15 +75,14 @@ const Ecosystem = () => {
                 </h5>
                 <p className="ecosystem_p text-center">
                   Leverages blockchain technology for tamper-proof identity
-                  <br className="d-none d-md-block" /> verification ensuring
-                  data is immutable and securely stored across a
-                  <br className="d-none d-md-block" /> distributed ledger.
+                  verification ensuring data is immutable and securely stored
+                  across a distributed ledger.
                 </p>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 mt-3 mt-lg-0">
-            <div style={{ width: "100%" }}>
+          <div className="col-lg-4 col-md-6 col-12 mt-5 mt-md-3 mt-lg-0">
+            <div className="box_width">
               <video
                 className="ecoSystemVideo rounded-top-4"
                 src={Ecosystem3}
@@ -100,10 +97,8 @@ const Ecosystem = () => {
                 </h5>
                 <p className="ecosystem_p text-center">
                   Supports integration with various systems for seamless
-                  identity <br className="d-none d-md-block" /> management that
-                  enables cross-platform identity verification through
-                  <br className="d-none d-md-block" />
-                  Web3 protocols.
+                  identity management that enables cross-platform identity
+                  verification through Web3 protocols.
                 </p>
               </div>
             </div>
